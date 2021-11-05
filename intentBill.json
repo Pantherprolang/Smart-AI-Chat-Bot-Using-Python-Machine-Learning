@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi, there",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello,there",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+{
+      "tag": “help”,
+      "patterns": [“Can you help?, “Help me”, “I need some help”, “Will you help me?”],
+      "responses": [
+        “Yes”,
+        “I can help”,
+        “I will be glad to.”
+      ]
+    },      
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": “id”,
+      "patterns": [
+        “What is your name?”,
+        “Can you provide your name?”,
+        “What is your ID?”,
+“Please, provide your first name.”
+“Please, provide your ID.”
+      ],
+      "responses": [
+        “My name is [insertName]”,
+“It is [insertName]”,
+“It’s [insertName]”,
+“and [insertNumeral]”,
+“My ID is [insertNumeral]”
+         “I’m [insertName].”  
+      ]
+    },
+    {
+      "tag": “billing”,
+      "patterns": [
+        “…charge…”,
+“…bill…”,
+“…pay…”,
+“…owe…”,
+“…how much…?”
+      ],
+      "responses": [
+        “{thanks}, you owe [insertCustomerAmount]”
+      ]
+    },
+
+{
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    
+  ]
+}
